@@ -17,7 +17,14 @@ A beautiful, AI-powered application for generating personalized holiday greeting
     npm install
     ```
 
-2.  **Run Development Server**
+2.  **Setup API Key**
+    - Duplicate `.env.example` and rename it to `.env`.
+    - Open `.env` and paste your OpenAI API Key:
+      ```env
+      VITE_OPENAI_API_KEY=sk-your-openai-api-key
+      ```
+
+3.  **Run Development Server**
     ```bash
     npm run dev
     ```
