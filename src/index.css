@@ -1,0 +1,112 @@
+:root {
+  --font-main: 'Outfit', sans-serif;
+
+  /* Palette */
+  --color-bg-dark: #0f172a;
+  --color-bg-card: #1e293b;
+  --color-primary: #8b5cf6;
+  /* Violet */
+  --color-secondary: #ec4899;
+  /* Pink */
+  --color-accent: #f43f5e;
+  /* Rose */
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
+  --color-border: #334155;
+
+  /* Gradients Replaced with Solids */
+  --gradient-main: var(--color-bg-dark);
+  --gradient-glass: var(--color-bg-card);
+  --gradient-btn: var(--color-primary);
+  --gradient-btn-hover: var(--color-secondary);
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg-dark);
+  color: var(--color-text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-primary);
+  text-align: center;
+}
+
+p {
+  color: var(--color-text-muted);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out forwards;
+}
