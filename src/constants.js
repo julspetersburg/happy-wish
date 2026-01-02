@@ -25,7 +25,7 @@ export const HEADERS = {
     'halloween': { en: 'Happy Halloween!', ru: 'С Хэллоуином!' },
     'birthday': { en: 'Happy Birthday!', ru: 'С Днем Рождения!' },
     'valentines': { en: 'Happy Valentine\'s Day!', ru: 'С Днем Святого Валентина!' },
-    'spring': { en: 'Spring and Peace!', ru: 'Мир! Труд! Май!' },
+    'spring': { en: 'Spring and Peace!', ru: 'С Праздником Весны и Мира!' },
     'easter': { en: 'Happy Easter!', ru: 'Со Светлой Пасхой!' },
     'graduation': { en: 'Happy Graduation!', ru: 'С Выпускным!' },
     'default': { en: 'Best Wishes!', ru: 'С Наилучшими Пожеланиями!' }
@@ -33,48 +33,48 @@ export const HEADERS = {
 
 export const THEMES = {
     'new-year': {
-        background: '#020617', // Very Dark Navy
-        accent: '#facc15', // Bright Gold
-        secondary: '#1e293b' // Slate
+        background: '#0f172a', // Midnight Blue
+        accent: '#fbbf24', // Warm Gold
+        secondary: '#1e40af' // Royal Blue
     },
     'christmas': {
-        background: '#052e16', // Darkest Forest Green
-        accent: '#dc2626', // Bright Red
-        secondary: '#f0fdf4' // Mint White
+        background: '#14532d', // Rich Forest Green
+        accent: '#ef4444', // Festive Red
+        secondary: '#fef3c7' // Cream
     },
     'halloween': {
-        background: '#2e1065', // Midnight Violet
-        accent: '#f97316', // Neon Orange
-        secondary: '#0f172a' // Dark Slate
+        background: '#1e1b4b', // Deep Purple
+        accent: '#fb923c', // Warm Orange
+        secondary: '#a78bfa' // Lavender
     },
     'birthday': {
-        background: '#831843', // Deep Maroon/Berry
-        accent: '#fef08a', // Pale Yellow
-        secondary: '#fce7f3' // Pale Pink
+        background: '#be185d', // Vibrant Magenta
+        accent: '#fde047', // Sunny Yellow
+        secondary: '#f0abfc' // Light Pink
     },
     'valentines': {
-        background: '#881337', // Deep Crimson
-        accent: '#fbcfe8', // Soft Pink
-        secondary: '#9f1239'
+        background: '#9f1239', // Deep Rose
+        accent: '#fda4af', // Soft Coral Pink
+        secondary: '#ffe4e6' // Blush
     },
     'spring': {
-        background: '#451a03', // Dark Espresso
-        accent: '#f59e0b', // Amber
-        secondary: '#78350f'
+        background: '#065f46', // Fresh Emerald
+        accent: '#fbbf24', // Sunflower Gold
+        secondary: '#d1fae5' // Mint Green
     },
     'easter': {
-        background: '#064e3b', // Deep Emerald
-        accent: '#f472b6', // Pink
-        secondary: '#fef3c7' // Soft Yellow
+        background: '#0e7490', // Soft Teal
+        accent: '#f472b6', // Pastel Pink
+        secondary: '#fef9c3' // Butter Yellow
     },
     'graduation': {
-        background: '#172554', // Deepest Blue
-        accent: '#facc15', // Gold
-        secondary: '#bfdbfe'
+        background: '#1e3a8a', // Noble Blue
+        accent: '#fcd34d', // Gold
+        secondary: '#dbeafe' // Light Blue
     },
     'default': {
-        background: '#18181b', // Zinc 900
-        accent: '#22d3ee', // Cyan
-        secondary: '#52525b'
+        background: '#1f2937', // Warm Charcoal
+        accent: '#06b6d4', // Bright Cyan
+        secondary: '#6b7280' // Cool Gray
     }
 }
