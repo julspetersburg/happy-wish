@@ -33,7 +33,7 @@ export default function WishCard({ wish, holidayId, recipient, language, onBack 
       let filename = 'holiday-wish.png'
       try {
         const cleanHoliday = holidayId || 'holiday'
-        const cleanRecipient = recipient && typeof recipient === 'string'
+        const cleanRecipient = (recipient && typeof recipient === 'string' && language !== 'Russian')
           ? `_for_${recipient.replace(/[^a-z0-9]/gi, '_')}`
           : ''
         filename = `${cleanHoliday}_Wish${cleanRecipient}.png`
